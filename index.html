@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Luke's meeting Note1</title>
+    <meta name = "author" content = "Yulin(Luke) Luo">
+    <meta name = "description" content="Meeting Note Luke">
+    <meta name = "keywords" content = "Luke Meeting Note Record">
+    <link rel = "icon" href = "images/meow.jpg">
+  </head>
+  <body>
+    <header>
+        <h1>Luke's 1st meeting Note</h1>
+        <nav>
+            <a href = "https://mive667.github.io/Mive667/"> Who is <b>Luke</b>? </a> |
+            <a href = "https://github.com/Mive667">My Github</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <div class = "Overview">
+                <h2>Proximity in Data Space</h2>
+                <p><i>Hold on Sep 29, 2023</i></p>
+            </div>
+            <div class = "Agenda">
+                <h3>Agenda</h3>
+                <ol>
+                    <li>Check-in</li>
+                    <li>Discuss Detection methology</li>
+                    <li><strong>Picking Distance Function</strong></li>
+                </ol>
+            </div>
+            <div class = "Check in">
+                <h3>Check-in List</h3>
+                <ul>
+                    <li><b>TA</b>: Amy</li>
+                    <li>Anne</li>
+                    <li>Barbara</li>
+                    <li>Dyne</li>
+                    <li>Luke</li>
+                </ul>
+            </div>
+            <hr>
+            <h3>Meeting Record</h3>
+            <div class="chemcam">
+                <img src="images/chemcam.jpg" width = "600" alt="ChencaM Instrument">
+              <p>Mars Curiosity Rover: the <span>ChemCam instrument</span></p>
+              <p>ChemCam has the ability to record up to 6,144 different wavelengths of<br> 
+                ultraviolet, visible, and infrared light. Detection of the ball of luminous<br> 
+                plasma is done in the visible, near-UV and near-infrared ranges, between 240<br> nm and 800 nm. The first initial laser testing of the ChemCam by Curiosity<br> 
+                on Mars was performed on a rock, N165 ("Coronation" rock), near Bradbury<br> 
+                Landing on August 19, 2012.
+              </p>
+              <ul>
+                <li>Laser-induced breakdown spectroscopy (LIBS)</li>
+                <li>Gives detailed information about chemical composition of rock</li>
+              </ul>
+              <video controls>
+                <source src="videos/chemcam.mp4" type="video/mp4">
+              </video>
+              <details>
+                <summary> Related audio </summary>
+                <audio controls>
+                    <source src="audios/chemcam.mp3" type="audio/mp3">
+                </audio>
+              </details>
+            </div>
+            <div class = "Distance Function">
+                <h2>Pick a Distance Function</h2>
+            </div>
+                <form>
+                    <fieldset>
+                        e-mail address: <input type="text" name="e-mail address" value="xxxxxx@ucsd.edu"><br><br>
+                        
+                        <label>Which distance function is proper?</label><br>
+                        <select name="picking distance function">
+                            <option value="l1">l1 distance</option>
+                            <option value="l2">l2 distance</option>
+                            <option value="KL divergence">KL divergence</option>
+                        </select><br><br>
+
+                        <textarea rows=3 cols=50>briefly explain your choice</textarea><br><br>
+
+                        <p>Who do you think contributed the most to the meeting</p>
+                        <input type="radio" name="Anne" value="Anne">
+                        <label>Anne</label><br>
+                        <input type="radio" name="Barbara" value="Barbara">
+                        <label>Barbara</label><br>
+                        <input type="radio" name="Dyne" value="Dyne">
+                        <label>Dyne</label><br>
+                        <input type="radio" name="Luke" value="Luke">
+                        <label>Luke</label><br><br>
+                        
+                        <label>Would you attend next meeting?</label>
+                        <input type="checkbox"><br><br>
+
+                        <label>submission date</label><br>
+                        <input type="date"><br><br>
+                        
+                        <button type="button">Submit</button>
+                    </fieldset>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <p>recorded by Luke</p>
+    </footer>
+  </body>
+</html>
