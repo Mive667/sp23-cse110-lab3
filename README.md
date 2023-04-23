@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://mive667.github.io/Lab2_Starter/
+# Lab 3
+https://mive667.github.io/sp23-cse110-lab3/
